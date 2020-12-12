@@ -28,7 +28,7 @@
 <br />
 <br />
 
-### Dusting of TS for complex array of objects.
+#### Dusting of TS for complex array of objects.
 
 <img src="https://miro.medium.com/max/4000/1*9eMyWLYOqU5aqBtVoFoi3Q.jpeg" width="200"/>
 
