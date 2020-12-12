@@ -6,11 +6,7 @@
 
 ##### \*Useful cmd for husky prior to committing
 
-<br />
-
 #### 2. Try removing some jsdocs or TS interfaces to show realtime type checking.
-
-#
 
 <br />
 
