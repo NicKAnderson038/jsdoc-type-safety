@@ -19,7 +19,7 @@
 
 ### Health amount of JsDocs for most data types.
 
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lBzMLBKJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://i.imgur.com/BL85jL8.png" width="400" />
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lBzMLBKJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://i.imgur.com/BL85jL8.png" width="450" />
 
 <br />
 <br />
