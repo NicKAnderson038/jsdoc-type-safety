@@ -1,3 +1,5 @@
+import './util-typing' // interface.d.ts isn't necessary either. And not setting any globals this way.
+
 /**
  * Converts value to string.
  * 
@@ -13,7 +15,7 @@ convertNumberToString(1100)
 /**
  * Create sentence from array of objects.
  * 
- * @param {$utils.MixedData} data
+ * @param {MixedData} data
  * @returns {string}
  */
 export const mixMultipleData = (data) => {
@@ -32,12 +34,3 @@ mixMultipleData({
     },
   ],
 })
-
-// /**
-//  * JsDoc style array/object description or use interfaces ex: interface.d.ts
-//  * 
-//  * @typedef {Object} MixedData
-//  * @prop {string} [name]
-//  * @prop {number} age
-//  * @prop {string[]} fruits
-//  */

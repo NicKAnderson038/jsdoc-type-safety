@@ -12,20 +12,73 @@
 
 ## Lots of JS!
 
-<img src="https://miro.medium.com/max/800/1*bxEkHw1xewxOFjmGunb-Cw.png" width="650"/>
+<img src="https://miro.medium.com/max/800/1*bxEkHw1xewxOFjmGunb-Cw.png" width="700"/>
 
 <br />
 <br />
 
 ### Health amount of JsDocs for most data types.
 
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lBzMLBKJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://i.imgur.com/BL85jL8.png" width="450" />
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lBzMLBKJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://i.imgur.com/BL85jL8.png" width="500" />
 
 <br />
 <br />
 
-##### Dusting of TS for complex array of objects.
+##### Only a small amount of TS needed in a create-react-app
 
-<img src="https://miro.medium.com/max/4000/1*9eMyWLYOqU5aqBtVoFoi3Q.jpeg" width="200"/>
+<img src="https://miro.medium.com/max/4000/1*9eMyWLYOqU5aqBtVoFoi3Q.jpeg" width="150"/>
+
+<br />
+<br />
 
 #
+
+##### What Typescript features are necessary for this.
+
+1. ./src/react-app-env.d.ts
+
+```ts
+/// <reference types="react-scripts" />
+```
+
+2. ./tsconfig.json
+
+```json
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "preserveSymlinks": true,
+    "baseUrl": "src",
+    "rootDirs": ["src/components"],
+    "strict": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "target": "es5",
+    "module": "esnext",
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.test.*"]
+}
+```
+
+##### Install Typescript as a devDependencies.
+
+`npm i -D typescript`
+
+<br />
+
+#
+
+<img src="https://miro.medium.com/max/3180/1*V65PWDs8kUW42QM5ebcYOw.png" width="800">

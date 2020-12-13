@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from '../image'
 import { convertNumberToString, mixMultipleData } from '../utils'
-import logo from './logo.png'
+import logo from './Js.png'
 import './index.css'
 
 const Home = () => {
