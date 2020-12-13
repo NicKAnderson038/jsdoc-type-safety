@@ -10,7 +10,7 @@
 
 <br />
 
-## Lots of JS!
+## Total JS application
 
 <img src="https://miro.medium.com/max/800/1*bxEkHw1xewxOFjmGunb-Cw.png" width="700"/>
 
