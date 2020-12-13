@@ -16,8 +16,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint src",
     "type-check": "tsc",
-    "eject": "react-scripts eject"
+    "tsc:watch": "tsc --watch --pretty",
+    "precommit": "npm run lint && npm run type-check"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +42,7 @@
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "husky": "^4.3.0",
     "typescript": "^4.1.3"
   }
 }
