@@ -33,7 +33,7 @@
 
 #
 
-##### What Typescript features are necessary for this.
+### What Typescript features are necessary for this in a create-react-app?
 
 1. ./src/react-app-env.d.ts
 
@@ -73,7 +73,7 @@
 }
 ```
 
-##### Install a few devDependencies & thats it!
+3. Install a few devDependencies & thats it!
 
 `npm i -D typescript @types/react @types/react-dom`
 
