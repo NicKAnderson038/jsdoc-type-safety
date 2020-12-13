@@ -73,9 +73,9 @@
 }
 ```
 
-##### Install Typescript as a devDependencies.
+##### Install a few devDependencies & thats it!
 
-`npm i -D typescript`
+`npm i -D typescript @types/react @types/react-dom`
 
 <br />
 
