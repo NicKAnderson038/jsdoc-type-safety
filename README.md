@@ -17,14 +17,14 @@
 <br />
 <br />
 
-### Health amount of JsDocs for most data types.
+### JsDocs for type safety & code documentation (Bonus).
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lBzMLBKJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://i.imgur.com/BL85jL8.png" width="500" />
 
 <br />
 <br />
 
-##### Only a small amount of TS needed in a create-react-app
+##### Only a small amount of TS needed.
 
 <img src="https://miro.medium.com/max/4000/1*9eMyWLYOqU5aqBtVoFoi3Q.jpeg" width="150"/>
 
