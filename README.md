@@ -1,6 +1,6 @@
 # JsDocs in combination with Typescript to type check JavaScript.
 
-##### Also included [snowpack](https://peterbeshai.com/blog/2020-10-22-cra-snowpack/) because it makes life better 😎
+##### Also included [snowpack](https://peterbeshai.com/blog/2020-10-22-cra-snowpack/) for local development because it's reloads ⚡ fast and that makes life better 😎 🍺
 
 <a href="https://peterbeshai.com/blog/2020-10-22-cra-snowpack/" target="_blank"><img src="https://www.snowpack.dev/img/logo.png" width="100" /></a>
 
