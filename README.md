@@ -1,6 +1,12 @@
 # JsDocs in combination with Typescript to type check JavaScript.
 
-## How to test
+##### Also included [snowpack](https://peterbeshai.com/blog/2020-10-22-cra-snowpack/) because it makes life better 😎
+
+<a href="https://peterbeshai.com/blog/2020-10-22-cra-snowpack/" target="_blank"><img src="https://www.snowpack.dev/img/logo.png" width="100" /></a>
+
+#
+
+## How to test your JavaScript data types?
 
 #### 1. npm run type-check
 
